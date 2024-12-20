@@ -5,4 +5,4 @@ MyApplication: Android Studio;
 
 AplicativoAndroid: Linha de comando;
 
-agora4: Flutter;.
+agora4: Flutter.
