@@ -1,0 +1,39 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center"
+android:orientation="vertical">
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Coloque o 1º número"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp"/> <!-- Added some margin for spacing -->
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Coloque o 2º número"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"/>  <!-- Added some margin for spacing -->
+
+    <Button
+        android:id="@+id/sumButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Somar"
+        android:layout_gravity="center_horizontal"/> <!-- Added to center button -->
+
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp" /> <!-- Added some margin for spacing -->
+</LinearLayout>
